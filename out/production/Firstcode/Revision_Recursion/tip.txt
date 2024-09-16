@@ -1,0 +1,57 @@
+Note :-  How to Understand and approach a problem in Recursion
+1.) identify if you break down problem into smaller problem
+2.) write the recurrence relation if needed
+3.) Draw the recursive tree
+
+4.) About the tree :-
+                i.) see the flow of the function, how they are getting in stack .
+                ii.) identify the flow of left and right tree calls
+                iii.) Draw the trees and pointer again and again using pen and paper
+                iv.) use debugger to see the flow
+                v.) see how the value are returned at each step .
+                    see where the function call will come out of
+                    and yow will come out of the main function
+
+
+question:-
+Write a recursive function to compute the factorial of a number 𝑛.
+Write a recursive function to compute the factorial of a number 𝑛
+
+Sum of Digits:
+
+Write a recursive function to find the sum of digits of a number
+𝑛
+n.
+
+Intermediate Recursion Problems:
+Power Function:
+
+Write a recursive function to compute
+𝑎
+𝑏
+a
+b
+  (a raised to the power of b).
+
+
+  Reverse a String:
+
+  Write a recursive function to reverse a given string.
+
+  Palindrome Check:
+
+  Write a recursive function to check if a string is a palindrome
+
+  Permutations of a String:
+
+  Write a recursive function to generate all permutations of a string.
+
+  Towers of Hanoi:
+
+  Write a recursive function to solve the Towers of Hanoi problem.
+
+  Subsets of a Set:
+
+  Write a recursive function to generate all subsets of a set.
+
+

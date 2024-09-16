@@ -1,0 +1,10 @@
+V.V.V.V.V.V.V.IMP:-
+
+you should know where to use variables
+and how to use variables:-
+                        i.) arguments
+                        ii.) return type
+                        iii.) body of the function
+question :- Binary search with recursion
+
+            i.) comparing
