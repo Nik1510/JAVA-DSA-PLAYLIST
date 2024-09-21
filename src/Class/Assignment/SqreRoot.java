@@ -10,12 +10,12 @@ public class SqreRoot {
         boolean a =true;
         for(int i =2 ;i<=x/2;i++){
             if(i*i==x){
-                System.out.println("The Number is"+i);
+                System.out.println("The Number is "+i);
                 a =false;
             }
         }
         if (a){
-            System.out.println("Number is prime");
+            System.out.println("Number is not a perfect square");
         }
 
     }
