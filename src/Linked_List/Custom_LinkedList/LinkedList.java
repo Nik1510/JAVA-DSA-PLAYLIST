@@ -1,5 +1,7 @@
 package Linked_List.Custom_LinkedList;
 
+import Linked_List._Leetocode.ListNode;
+
 public class LinkedList {
 
     private Node head;
@@ -72,9 +74,58 @@ public class LinkedList {
             temp=temp.next;
             length++;
         }
-       newNode.next = temp.next;
-        temp .next =newNode;
+       newNode.next = temp.next; // connecting new node to next node
+        temp .next =newNode; // make new connection of excting new node to next node
 
+    }
+
+    public int deleteFirst(){
+       int val = head.value;
+       head = head.next;
+       if (head==null){
+           tail= null;
+       }
+       size--;
+       return val;
+    }
+
+    public int deleteLast(){
+        if (size==1){
+            return deleteFirst();
+        }
+        Node secondLast =get(size-2);
+        int val = tail.value;
+        tail = secondLast;
+        tail.next = null;
+        return val;
+    }
+    public int deleteAny(int index){
+        if (index == 0){
+            return deleteFirst();
+
+        }
+        if (index==size-1){
+            return deleteLast();
+        }
+        Node elementBeforeDeleteElement = get(index-1);
+        int val = elementBeforeDeleteElement.next.value;
+        elementBeforeDeleteElement.next=elementBeforeDeleteElement.next.next;
+        return val;
+    }
+
+
+    // insert using recursion
+     // what should the person should see
+    public void insertRec(int val , int index){
+
+    }
+
+    public Node get(int index){
+        Node node = head;
+        for (int i = 0; i < index; i++) {
+            node = node.next;
+        }
+        return node;
     }
     public void display(){
         Node temp = head;

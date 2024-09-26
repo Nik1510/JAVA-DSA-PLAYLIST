@@ -15,6 +15,10 @@ public class Main {
         LL.display();
         LL.insertAny(35, 2);
         LL.display();
+        System.out.println(LL.deleteFirst());
+        LL.display();
+        System.out.println(LL.deleteAny(3));
+        LL.display();
 
 
     }
