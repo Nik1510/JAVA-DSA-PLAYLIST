@@ -9,17 +9,18 @@ public class Main {
         LL.insertFirst(10);
         LL.insertFirst(5);
         LL.display();
-        LL.insertLast(85);
+//        LL.insertLast(85);
+//        LL.display();
+//        LL.insertLast2(95);
+//        LL.display();
+//        LL.insertAny(35, 2);
+//        LL.display();
+//        System.out.println(LL.deleteFirst());
+//        LL.display();
+//        System.out.println(LL.deleteAny(3));
+//        LL.display();
+        LL.insertRec(88, 2);
         LL.display();
-        LL.insertLast2(95);
-        LL.display();
-        LL.insertAny(35, 2);
-        LL.display();
-        System.out.println(LL.deleteFirst());
-        LL.display();
-        System.out.println(LL.deleteAny(3));
-        LL.display();
-
 
     }
 }
